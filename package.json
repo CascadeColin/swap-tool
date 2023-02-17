@@ -1,0 +1,16 @@
+{
+  "name": "sswap",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "John McCambridge <jmccamb@gmail.com>, refactored by Colin Marshall <cascade.colin@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "8.2.4"
+  }
+}
